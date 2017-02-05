@@ -37,8 +37,34 @@ figure.foto-legenda:hover figcaption{
 }
 
 /* formataçao do menu*/
+nav#menu{
+    display: block;/* */
+}
 
 nav#menu ul{
     list-style: none;
     text-transform: uppercase;
+    position: absolute;
+    top: -10px;
+    left: 600px;
+}
+
+nav#menu li{
+    display: inline-block; /* coloca a lista em bloco(menu)*/
+    background-color: #dddddd;
+    padding: 10px;
+    margin: 4px;
+}#menu li:hover{
+    background-color: #606060;
+ }
+
+nav#menu h1{
+    display: none;
+}
+nav#menu a{
+    color: #000000;
+    text-decoration: none/* retira o sublinhado*/
+}
+nav#menu a:hover{
+    color: #ffffff;
 }
