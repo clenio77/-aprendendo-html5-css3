@@ -47,6 +47,24 @@ header#cabecalho h2{
     margin-top: 0px;
 }
 
+header#cabecalho-artigo h1{
+    font-family: 'fonteLogo', sans-serif;
+    font-size: 30pt;
+    color: #606060;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.6);
+    padding: 0px;
+    margin-bottom: 0px;
+}
+
+header#cabecalho-artigo h2{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 15pt;
+    color: #888888;
+    padding: 0px;
+    margin-top: 0px;
+}
+
+
 p{
     text-align: justify;
     text-indent: 50px;
