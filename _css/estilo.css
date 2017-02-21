@@ -47,6 +47,7 @@ header#cabecalho h2{
     margin-top: 0px;
 }
 
+
 header#cabecalho-artigo h1{
     font-family: 'fonteLogo', sans-serif;
     font-size: 30pt;
@@ -62,6 +63,12 @@ header#cabecalho-artigo h2{
     color: #888888;
     padding: 0px;
     margin-top: 0px;
+}
+
+header#cabecalho-artigo h3{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 13pt;
+
 }
 
 
@@ -175,6 +182,9 @@ aside#lateral{
     display: block;
     width: 450px;
     float: right;
+}
+aside#lateral video{
+    width: 450px;
 }
 
 footer#rodape{
